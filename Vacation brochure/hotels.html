@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Vacation - Hotels</title>
+      <!-- 
+         Vacation main web page
+         Filename: index.html
+         
+         Author:   Armin Prutina
+         Date:     5/8/2019
+         HTML5 and CSS3 Final
+         -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <div class="container">
+      <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+      <header>
+         <h1> <a href="index.html"> <img src="images/bosna.gif" width="500" height="170" alt="Bosna"></a></h1>
+      </header>
+      <nav class="sitenavigation">
+         <p><a href="index.html">Home</a></p>
+         <p><a href="hotels.html">Hotels</a></p>
+         <p><a href="food.html">Popular Food</a></p>
+         <p><a href="activities.html">Activities to do</a></p>
+      </nav>
+      <h4 id="hotel1">Novotel Sarajevo Bristol</h4>
+      <figure class="hotel1">
+         <img src="images/hotel1.jpg" width="350" height="250" alt="novotel sarajevo bristol">
+         <p>Novotel Sarajevo Bristol is a beautiful hotel that is near Some great attractions, such as Old Town and Baščaršija market. It is a little further away from the airport, but it is nothing too serious. The hotel offers beautiful views of the city and also comes with an indoor pool and free WI-FI. The hotel also has a Cafe and restaurant for guests to enjoy.</p>
+      </figure>
+      <h3 id="hotel2">Hotel Radon Plaza</h3>
+      <figure class="hotel2">
+         <img src="images/hotel2.jpg" width="350" height="250" alt="Hotel Radon Plaza">
+         <p>Hotel Radon Plaza is a hotel that is also shared to be a High rise building. It is only 3km away from the Sarajevo airport and is near the Museum of Bosnia and Hercegovina. It offers free Wi-FI and up to date flat-screen TV's. It has multiple minibar to enjoy from. It also has a bowling alley to enjoy with family and a gym.</p>
+      </figure>
+      <h5 id="hotel2">Pino Nature Hotel</h5>
+      <figure class="hotel3" style= height:200px;>
+         <img src="images/hotel3.jpg" width="350" height="250" alt="Hotel Radon Plaza">
+         <p> Pino Nature Hotel is a nature lovers paradise. It is in a forested area and is near the Sarajevo Olympic Bobsleigh and Luge Track. It is up to date with Flat screen TVs and also comes with free wifi. It includes a breakfast buffet with two indoor pools and two saunas for the guests. It is further away from the city, but the atmosphere of the hotel pays for the extra miles having to drive.  </p>
+      </figure>
+      <h6 id="hotel4">Courtyard by Marriott Sarajevo</h6>
+      <figure class="hotel4" style="
+         height: 0px;
+         ">
+         <img src="images/hotel4.jpg" width="350" height="250" alt="Hotel Radon Plaza">
+         <p>Courtyard by Marriott Sarajevo is right across the street from the Miljacka River. It is walking distance from the Sarajevo National Theatre and you could even take a walk to Baščaršija Square. It includes free wifi, flat screen TVs. It comes with breakfast and has a contemporary restaurant along with a fitness room. Unfortunately the parking comes with a surcharge.</p>
+      </figure>
+      <form action="Submit.html">
+         <div class="row">
+            <p> Check Hotel Availability</p>
+            <div class="col-25">
+               <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="lname">Last Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-25">
+                  <label for="hotel">Hotel</label>
+               </div>
+               <div class="col-75">
+                  <select id="hotel" name="hotel">
+                     <option value="australia">Novotel Sarajevo Bristol</option>
+                     <option value="canada">Hotel Radon Plaza</option>
+                     <option value="usa">Pino Nature Hotel</option>
+                     <option value="usa">Courtyard by Marriott Sarajevo</option>
+                  </select>
+               </div>
+            </div>
+         </div>
+         <div class="Dates">
+            <div class="col-25">
+               <label for="month">Check-in Month</label>
+            </div>
+            <div class="col-75">
+               <select id="month" name="month">
+                  <option value="January">January</option>
+                  <option value="February">February</option>
+                  <option value="March">March</option>
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+                  <option value="June">June</option>
+                  <option value="July">July</option>
+                  <option value="August">August</option>
+                  <option value="September">September</option>
+                  <option value="October">October</option>
+                  <option value="November">November</option>
+                  <option value="December">December</option>
+               </select>
+            </div>
+            <div class="col-25">
+               <label for="day">Check-in Day</label>
+            </div>
+            <div class="col-75">
+               <select id="day" name="day">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                  <option value="32">32</option>
+               </select>
+            </div>
+            <div class="col-25">
+               <label for="year">Phone number</label>
+            </div>
+            <div class="col-75">
+               <input type="text" id="num" name="num" placeholder="(XXX)-XXX-XXXX">
+               </input>
+               <label for="email"> Would you like to opt out for texts for future deals?</label>                     
+               <input type="checkbox" id="email" name="email" value="email">
+            </div>
+         </div>
+         <div class="row">
+            <input type="submit" value="Submit">
+         </div>
+      </form>
+      <footer>
+         <p>Armin Prutina &#8226; CIT 151 - 1001 - 1002 &#8226; Spring Semester</p>
+      </footer>
+   </body>
+</html>
